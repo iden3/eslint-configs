@@ -1,6 +1,6 @@
 # Shared ESLint configuration for js projects
 
-This [ESLint](https://eslint.org/) configuration deactivates all formatting rules of ESLint and makes sure that [Prettier](https://prettier.io/) is used for code beautifying.
+This is shared iden3 [ESLint](https://eslint.org/) configuration.
 
 ## Integrate into new project
 
@@ -32,7 +32,7 @@ $ npx install-peerdeps --dev @iden3/eslint-config
 $ pnpm dlx install-peerdeps --dev @iden3/eslint-config
 ```
 
-Instead, you can do this manually my adding all entries part of the `peerDependencies` property (see `package.json`).
+Instead, you can do this manually by adding all entries part of the `peerDependencies` property (see `package.json`).
 
 3. Use ESLint config in your project
 
