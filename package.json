@@ -1,0 +1,11 @@
+{
+  "name": "eslint-prettier-config",
+  "description": "Shared ESLint and Prettier config",
+  "author": "Iden3 Core team",
+  "license": "AGPL-3.0",
+  "main": "index.js",
+  "scripts": {
+    "publish-eslint-config": "npm publish --workspace",
+    "publish-prettier-config": "npm publish --workspace"
+  }
+}

@@ -1,0 +1,24 @@
+{
+    "name": "@iden3/prettier-config",
+    "version": "1.0.0-beta.1",
+    "description": "shared Prettier config",
+    "main": "./prettier-config.json",
+    "author": "Iden3 Core team",
+    "license": "AGPL-3.0",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/iden3/js-iden3-eslint-config"
+    },
+    "keywords": [
+        "iden3"
+    ],
+    "publishConfig": {
+      "access": "public"
+    },
+    "bugs": {
+        "url": "https://github.com/iden3/js-iden3-eslint-config/issues"
+    },
+    "scripts": {
+      "publish-manual": "npm publish"
+    }
+  }
