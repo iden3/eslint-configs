@@ -1,12 +1,45 @@
-# eslint-config
+# Shared ESLint configuration for js projects
 
-Shared ESLint and Prettier config
+This is shared iden3 [ESLint](https://eslint.org/) configuration.
 
-## WARNING
+## Integrate into new project
 
-All code here is experimental and WIP
+1. Install this package as devDependency
 
-## License
+```sh
+# with Yarn
+$ yarn add -D @iden3/eslint-config
 
-eslint-config is part of the iden3 project copyright 2018 0kims association
-and published with GPL-3 license, please check the LICENSE file for more details.
+# with npm
+$ npm i -D @iden3/eslint-config
+
+# with pnpm
+$ pnpm add -D @iden3/eslint-config
+```
+
+2. Install peer dependencies of this package in your project as devDependencies
+
+Therefore, you can make use of the tool [install-peerdeps](https://github.com/nathanhleung/install-peerdeps):
+
+```sh
+# with Yarn
+$ yarn dlx install-peerdeps --dev @iden3/eslint-config
+
+# with npm
+$ npx install-peerdeps --dev @iden3/eslint-config
+
+#with pnpm
+$ pnpm dlx install-peerdeps --dev @iden3/eslint-config
+```
+
+Instead, you can do this manually by adding all entries part of the `peerDependencies` property (see `package.json`).
+
+3. Use ESLint config in your project
+
+Create a `.eslintrc.js` file in project root with the following content:
+
+```js
+module.exports = {
+  extends: ["@iden3/eslint-config"],
+};
+```
