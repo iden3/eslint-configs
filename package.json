@@ -29,5 +29,7 @@
       "eslint-plugin-prettier": "^4.2.1",
       "prettier": "^2.7.1"
     },
-    "files": [ "prettier" ]
+     "directories":{
+        "prettier": "prettier"
+    } 
   }
