@@ -1,35 +1,41 @@
 {
-    "name": "@iden3/eslint-config",
-    "version": "1.0.0",
-    "description": "shared ESLint config",
-    "main": "./eslint-config.js",
-    "author": "Iden3 Core team",
-    "license": "AGPL-3.0",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/iden3/eslint-config"
-    },
-    "keywords": [
-        "iden3"
-    ],
-    "publishConfig": {
-      "access": "public"
-    },
-    "bugs": {
-        "url": "https://github.com/iden3/eslint-config/issues"
-    },
-    "scripts": {
-      "publish-manual": "npm publish"
-    },
-    "peerDependencies": {
-      "eslint": "9.5.0",
-      "@typescript-eslint/eslint-plugin": "7.13.0",
-      "@typescript-eslint/parser": "7.13.0",
-      "eslint-config-prettier": "9.1.0",
-      "eslint-plugin-prettier": "5.1.3",
-      "prettier": "3.3.2"
-    },
-     "directories":{
-        "prettier": "prettier"
-    } 
+  "name": "@iden3/eslint-config",
+  "version": "1.0.0",
+  "description": "shared ESLint config",
+  "main": "./eslint-config.js",
+  "author": "Iden3 Core team",
+  "license": "AGPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iden3/eslint-config"
+  },
+  "keywords": [
+    "iden3"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "bugs": {
+    "url": "https://github.com/iden3/eslint-config/issues"
+  },
+  "scripts": {
+    "publish-manual": "npm publish"
+  },
+  "peerDependencies": {
+    "eslint": "9.5.0",
+    "@typescript-eslint/eslint-plugin": "7.13.0",
+    "@typescript-eslint/parser": "7.13.0",
+    "eslint-config-prettier": "9.1.0",
+    "eslint-plugin-prettier": "5.1.3",
+    "esbuild": "0.21.5",
+    "@types/jest": "29.5.12",
+    "prettier": "3.3.2",
+    "rimraf": "5.0.7",
+    "ts-node": "10.9.2",
+    "typescript": "5.4.5",
+    "vitest": "1.6.0"
+  },
+  "directories": {
+    "prettier": "prettier"
   }
+}
