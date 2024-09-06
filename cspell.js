@@ -56,7 +56,6 @@ exports.cspell = {
       "/seed\w*/g"
     ],
     "ignoreWords": [
-      "CREDENTAIL",
       "unmarshal",
       "JUvpllMEYUZ2joO59UNui_XYDqxVqiFLLAJ8klWuPBw",
       "gdwj",
