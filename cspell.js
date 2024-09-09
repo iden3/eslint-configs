@@ -45,6 +45,11 @@ const cspellConfig = {
     "crosschain",
     "metadatas",
     "wtns",
+    "zkevm",
+    "linea",
+    "nolint",
+    "did",
+    "dids"
   ],
   ignoreRegExpList: [
     "Base64",
