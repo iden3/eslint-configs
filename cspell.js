@@ -49,7 +49,18 @@ const cspellConfig = {
     "linea",
     "nolint",
     "did",
-    "dids"
+    "dids",
+    "circomlibjs",
+    "BabyJub",
+    "BabyJubJub",
+    "Jubjub",
+    "unmarshall",
+    "unmarshaller",
+    "pubsignals",
+    "pubsignal",
+    "GROTH",
+    "circuitId",
+    "0xpolygonid"
   ],
   ignoreRegExpList: [
     "Base64",
