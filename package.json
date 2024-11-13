@@ -22,13 +22,13 @@
         "publish-manual": "npm publish"
     },
     "peerDependencies": {
-        "@cspell/eslint-plugin": "^8.14.2",
-        "@typescript-eslint/eslint-plugin": "^5.0.0",
-        "@typescript-eslint/parser": "^5.0.0",
-        "eslint": "^8.13.0",
-        "eslint-config-prettier": "^8.5.0",
-        "eslint-plugin-prettier": "^4.2.1",
-        "prettier": "^2.7.1"
+        "@cspell/eslint-plugin": "^8.16.0",
+        "@typescript-eslint/eslint-plugin": "^8.14.0",
+        "@typescript-eslint/parser": "^8.14.0",
+        "eslint": "^9.14.0",
+        "eslint-config-prettier": "^9.1.0",
+        "eslint-plugin-prettier": "^5.2.1",
+        "prettier": "^3.3.3"
     },
     "directories": {
         "prettier": "prettier"
