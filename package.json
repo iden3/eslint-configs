@@ -2,7 +2,8 @@
     "name": "@iden3/eslint-config",
     "version": "1.0.0",
     "description": "shared ESLint config",
-    "module": "./eslint-config.mjs",
+    "module": "./eslint.config.mjs",
+    "main": "./eslint.config.mjs",
     "author": "Iden3 Core team",
     "license": "AGPL-3.0",
     "repository": {
@@ -31,7 +32,7 @@
         "prettier": "^3.3.3",
         "@eslint/js": "^9.14.0",
         "@types/eslint__js": "^8.42.3",
-        "eslint": "^9.14.0",
+        "eslint": "^9.15.0",
         "typescript": "^5.6.3",
         "typescript-eslint": "^8.14.0"
     },
