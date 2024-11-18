@@ -2,7 +2,8 @@
     "name": "@iden3/eslint-config",
     "version": "1.0.0",
     "description": "shared ESLint config",
-    "main": "./eslint-config.js",
+    "module": "./eslint.config.mjs",
+    "main": "./eslint.config.mjs",
     "author": "Iden3 Core team",
     "license": "AGPL-3.0",
     "repository": {
@@ -22,13 +23,18 @@
         "publish-manual": "npm publish"
     },
     "peerDependencies": {
-        "@cspell/eslint-plugin": "^8.14.2",
-        "@typescript-eslint/eslint-plugin": "^5.0.0",
-        "@typescript-eslint/parser": "^5.0.0",
-        "eslint": "^8.13.0",
-        "eslint-config-prettier": "^8.5.0",
-        "eslint-plugin-prettier": "^4.2.1",
-        "prettier": "^2.7.1"
+        "@cspell/eslint-plugin": "^8.16.0",
+        "@eslint/eslintrc": "^3.2.0",
+        "@typescript-eslint/eslint-plugin": "^8.14.0",
+        "@typescript-eslint/parser": "^8.14.0",
+        "eslint-config-prettier": "^9.1.0",
+        "eslint-plugin-prettier": "^5.2.1",
+        "prettier": "^3.3.3",
+        "@eslint/js": "^9.15.0",
+        "@types/eslint__js": "^8.42.3",
+        "eslint": "9.14.0",
+        "typescript": "^5.6.3",
+        "typescript-eslint": "^8.14.0"
     },
     "directories": {
         "prettier": "prettier"
